@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid pt-5 px-5 my-5">
-    <div class="row mt-5">
+  <div class="container my-5">
+    <div class="row">
       <div class="col-md-9">
         <AllUsefulLinks></AllUsefulLinks>
       </div>

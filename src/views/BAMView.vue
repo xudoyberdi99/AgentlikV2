@@ -17,7 +17,6 @@
 
 <script>
 import {BAMCard} from '../components'
-import { Subjects } from '../components';
 import { mapState } from 'vuex';
 export default {
 components:{

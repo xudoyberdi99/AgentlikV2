@@ -11,6 +11,7 @@ export {default as CoursesView} from './CoursesView.vue'
 export {default as InteractivService} from './InteractiveServiceView.vue'
 export {default as LastNews} from './LastNewsView.vue'
 export {default as UseFulLinks} from './UseFullinksView.vue'
+export {default as AboutUsDetailView} from './AboutUsDetail.vue'
 
 
 

@@ -1,11 +1,10 @@
 <template>
-  <div class="container-fluid mt-5 mb-5 px-5">
+  <div class="container my-5 py-5">
     <div class="row">
       <div class="col-3">
         <h2 class="fw-bold">Hamkorlarimiz</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Doloremque ducimus optio quidem rem voluptas. A aliquam corporis dolore dolores,
-          ducimus explicabo in labore necessitatibus quasi qui tempore vero?
+          Doloremque ducimus optio quidem rem
         </p>
       </div>
       <div class="col-9">

@@ -1,8 +1,8 @@
 <template>
-  <div class="container mt-5 mb-5">
+  <div class="container pt-5">
     <div class="row">
       <div class="col-md-9">
-        <LastNews></LastNews>
+        <AboutDetail></AboutDetail>
       </div>
       <div class="col-md-3">
         <Aside></Aside>
@@ -10,17 +10,13 @@
     </div>
   </div>
 </template>
-
 <script>
-import LastNews from "@/components/AllNews.vue";
+import AboutDetail from "@/components/AboutUsDetail.vue";
 import Aside from "@/layout/Aside.vue";
-
 export default {
-  components: {Aside, LastNews}
-
+  components: {Aside,AboutDetail}
 }
 </script>
-
-<style scoped>
+<style>
 
 </style>

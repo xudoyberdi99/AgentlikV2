@@ -27,10 +27,8 @@
 
 <script>
 import { mapState } from 'vuex';
-import {Subjects} from '../components'
 export default {
     components:{
-        Subjects
     },
     methods:{
         

@@ -1,13 +1,18 @@
 <template>
-  <div class="container-fluid p-5 mb-5">
-    <div class="row mb-5 pb-5">
-      <div class="col-md-6">
-        <h2>Foydali Havolalar</h2>
-      </div>
-      <div class="col-md-6">
-        <button
-            @click="$router.push('usefullinks')"
-            style="
+  <div class="container-fluid py-5" style="background-color: #f6f9f8;">
+  <div class="container mb-5">
+    <div class="row  mb-5 pb-5">
+      <div class="d-flex justify-content-between">
+        <div class="col-md-6">
+          <h2>Foydali Havolalar</h2>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-8"></div>
+            <div class="col-4">
+              <button
+                  @click="$router.push('usefullinks')"
+                  style="
               background-color: #fdc800;
               color: black;
               width: 150px;
@@ -16,16 +21,21 @@
               padding: 12px 20px;
               font-weight: bold;
               font-size: 20px;
-              margin-left: 730px;
             "
-            class="btn btn-success fw-bold"
-        >
-          Barchasi
-        </button>
+                  class="btn btn-success fw-bold"
+              >
+                Barchasi
+              </button>
+            </div>
+          </div>
+
+
+        </div>
       </div>
+
     </div>
     <div class="row">
-      <div class="col-md-3 links">
+      <div class="col-md-4 links">
         <a href="https://my.gov.uz/oz"  target="_blank">
           <div class="box">
             <img src="https://api.mf.uz/media/usefullink/logos/logo_1.png"  class="images1" alt="">
@@ -35,7 +45,7 @@
           </div>
         </a>
       </div>
-      <div class="col-md-3 links">
+      <div class="col-md-4 links">
         <a href="https://www.gov.uz/" target="_blank">
           <div class="box">
             <img src="https://api.mf.uz/media/usefullink/logos/spravochnik_fpyh7Gg.png"  class="images1" alt="">
@@ -45,17 +55,7 @@
           </div>
         </a>
       </div>
-      <div class="col-md-3 links">
-        <a href="https://www.pfru.uz/" target="_blank">
-          <div class="box">
-            <img src="https://api.mf.uz/media/usefullink/logos/gerb_zi4ziRv.png"  class="images1" alt="">
-            <p class="text">
-              O'zbekiston Respublikasi budjetdan tashqari pensiya jamg'armasi
-            </p>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-3 links">
+      <div class="col-md-4 links">
         <a href="https://play.google.com/store/apps/details?id=uz.minfin.open_budget&hl=ru&gl=US&pli=1" target="_blank">
           <div class="box">
             <img src="https://api.mf.uz/media/usefullink/logos/ob.png"  class="images1" alt="">
@@ -68,6 +68,7 @@
       </div>
 
     </div>
+  </div>
   </div>
 </template>
 

@@ -1,5 +1,4 @@
 <template>
-  <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 links">
         <a href="https://my.gov.uz/oz"  target="_blank">
@@ -118,14 +117,12 @@
           <div class="box">
             <img src="https://api.mf.uz/media/usefullink/logos/ob.png"  class="images1" alt="">
             <p class="text">
-
               O‘zbekiston Respublikasi "Ochiq budjet" portali
             </p>
           </div>
         </a>
       </div>
     </div>
-  </div>
 </template>
 <style scoped>
 .links {

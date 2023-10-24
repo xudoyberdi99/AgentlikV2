@@ -1,7 +1,6 @@
 <template>
-  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="card-item px-0">
           <img src="@/img/image1.jpg" class="image">
           <div style="padding: 14px;">
@@ -25,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="card-item">
           <img src="@/img/image2.png"
                class="image">
@@ -50,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="card-item">
           <img src="@/img/image3.jpg" class="image">
           <div style="padding: 14px;">
@@ -74,7 +73,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="card-item px-0">
           <img src="@/img/image1.jpg" class="image">
           <div style="padding: 14px;">
@@ -98,7 +97,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="card-item">
           <img src="@/img/image2.png"
                class="image">
@@ -123,7 +122,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="card-item">
           <img src="@/img/image3.jpg" class="image">
           <div style="padding: 14px;">
@@ -147,82 +146,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card-item px-0">
-          <img src="@/img/image1.jpg" class="image">
-          <div style="padding: 14px;">
-            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-              etiborimizdasiz
-              aziz bolajonlar</p></button>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugiat illo, magnam obcaecati odit veritatis.</p>
-            <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
-                  class="fa fa-arrow-right fa-sm"
-                  aria-hidden="true"></i></span></button>
-              <div class="px-2">
-                <i class="fas fa-share"></i>
-                <span><time class="times">123</time></span>
-              </div>
-              <div>
-                <i class="fa-solid fa-calendar"></i>
-                <span><time class="times">{{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card-item">
-          <img src="@/img/image2.png"
-               class="image">
-          <div style="padding: 14px;">
-            <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-              etiborimizdasiz
-              aziz bolajonlar</p></button>
-            <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eaque esse in ipsum nulla pariatur quam reprehenderit vitae?</p>
-            <div class="bottom clearfix">
-              <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
-                  class="fa fa-arrow-right fa-sm"
-                  aria-hidden="true"></i></span></button>
-              <div class="px-2">
-                <i class="fas fa-share"></i>
-                <span><time class="times">123</time></span>
-              </div>
-              <div>
-                <i class="fa-solid fa-calendar"></i>
-                <span><time class="times">{{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card-item">
-          <img src="@/img/image3.jpg" class="image">
-          <div style="padding: 14px;">
-            <button @click="$router.push('news-detail/1')" class="buttons "><p class="fw-bold text-center">siz doim
-              etiborimizdasiz
-              aziz bolajonlar</p></button>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, earum impedit iure non possimus voluptatibus!</p>
-            <div class="bottom clearfix">
-              <button @click="$router.push('#')" class="buttons">To'liq o'qish <span class="time"><i
-                  class="fa fa-arrow-right fa-sm"
-                  aria-hidden="true"></i></span></button>
-              <div class="px-2">
-                <i class="fas fa-share"></i>
-                <span><time class="times">123</time></span>
-              </div>
-              <div>
-                <i class="fa-solid fa-calendar"></i>
-                <span><time class="times">{{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
 </template>
 <script>
 export default {

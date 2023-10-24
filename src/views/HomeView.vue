@@ -1,5 +1,5 @@
 <template>
-    <Slide />
+    <AboutUs />
 <InteractivService />
   <LastNews />
   <UsefullLinks />
@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { Slide } from '../components';
 import {AboutUs} from '../components'
 import {Partners} from '../components'
 import {InteractivService} from "../components";
@@ -16,7 +15,6 @@ import {UsefullLinks} from "../components";
 
 export default {
 components:{
-  Slide,
   AboutUs,
   Partners,
   InteractivService,

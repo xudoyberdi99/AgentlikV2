@@ -12,7 +12,8 @@ import {
   CoursesView,
   InteractivService,
     LastNews,
-    UseFulLinks
+    UseFulLinks,
+    AboutUsDetailView
 } from '@/views'
 
 
@@ -21,6 +22,11 @@ const  routes= [
       path:'/',
       name:'home',
       component: HomeView,
+    },
+    {
+        path: '/about',
+        name: 'about',
+        component: AboutUsDetailView,
     },
     {
       path: '/services',

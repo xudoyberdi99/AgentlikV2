@@ -1,17 +1,17 @@
 <template>
-  <div class="container-fluid mt-5 mb-5 p-5">
+  <div class="container my-5 pt-5">
     <div class="row">
-      <div class="col-md-3 groups-item">
-        <h4 class="fw-bold my-3">Agentlik  yangiliklari</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim fugiat necessitatibus nostrum vitae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi aspernatur beatae culpa dolore ea eligendi eum in, itaque iure magni, maxime nam necessitatibus omnis quod repellendus sint, soluta!</p>
+      <div class="col-md-4 groups-item">
+        <h4 class="fw-bold">Agentlik  yangiliklari</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit. Alias aliquid animi aspernatur beatae culpa dolore ea eligendi eum in, itaque iure magni, maxime nam necessitatibus omnis quod repellendus sint, soluta!</p>
           <button @click="$router.push('lastnews')"
                   style="background-color: #FDC800; color: black; border-radius: 5px; border:none;margin-top: 10px;"
                   class="btn btn-success p-3 fw-bold">Barcha Yangiliklar
           </button>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-8">
         <div class="row mb-5 ">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="card-item px-0">
               <img src="@/img/image1.jpg" class="image">
               <div style="padding: 14px;">
@@ -35,32 +35,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card-item">
-              <img src="@/img/image2.png"
-                   class="image">
-              <div style="padding: 14px;">
-                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-                  etiborimizdasiz
-                  aziz bolajonlar</p></button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eaque esse in ipsum nulla pariatur quam reprehenderit vitae?</p>
-                <div class="bottom clearfix">
-                  <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
-                      class="fa fa-arrow-right fa-sm"
-                      aria-hidden="true"></i></span></button>
-                  <div class="px-2">
-                    <i class="fas fa-share"></i>
-                    <span><time class="times">123</time></span>
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-calendar"></i>
-                    <span><time class="times">{{ currentDate }}.{{ currentMonth }}.{{ currentYear }}</time></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="card-item">
               <img src="@/img/image3.jpg" class="image">
               <div style="padding: 14px;">
@@ -158,7 +133,7 @@ export default {
   margin-bottom: 30px;
 }
 .btn{
-  margin-top: 200px!important;
+  margin-top: 250px!important;
   font-weight: bold;
 }
 .btn:hover {

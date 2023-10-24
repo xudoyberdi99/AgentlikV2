@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5">
+  <div class="container mt-2">
     <div class="menu">
       <h2 class="text-center py-3 text-light">Kategoriya</h2>
       <div class="row">

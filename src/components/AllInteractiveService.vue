@@ -3,7 +3,7 @@
     <div class="col-md-12">
       <h4 class="text-center mb-5 fw-bold">Interaktiv xizmatlar</h4>
       <div class="row groups">
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help5_q4QkrdL.png" alt="">
           <p class="title">Korrupsiyaga qarshi kurashish</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
@@ -11,28 +11,28 @@
               class="fa fa-arrow-right"
               aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help6.png" alt="">
           <p class="title">onlayn matbuot</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
           <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
               class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help1_Cr6EqxB_1tczXMX.png" alt="">
           <p class="title">Telegram kanal "oylik" boti</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
           <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
               class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help6.png" alt="">
           <p class="title">onlayn matbuot</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
           <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
               class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help5_q4QkrdL.png" alt="">
           <p class="title">Korrupsiyaga qarshi kurashish</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
@@ -40,55 +40,34 @@
               class="fa fa-arrow-right"
               aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help6.png" alt="">
           <p class="title">onlayn matbuot</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
           <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
               class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help1_Cr6EqxB_1tczXMX.png" alt="">
           <p class="title">Telegram kanal "oylik" boti</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
           <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
               class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help6.png" alt="">
           <p class="title">onlayn matbuot</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
           <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
               class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
-        <div class="col-md-3 groups-item">
+        <div class="col-md-4 groups-item">
           <img src="https://api.mf.uz/media/interactive_services/help5_q4QkrdL.png" alt="">
           <p class="title">Korrupsiyaga qarshi kurashish</p>
           <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
           <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
               class="fa fa-arrow-right"
               aria-hidden="true"></i></span></a>
-        </div>
-        <div class="col-md-3 groups-item">
-          <img src="https://api.mf.uz/media/interactive_services/help6.png" alt="">
-          <p class="title">onlayn matbuot</p>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
-              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
-        </div>
-        <div class="col-md-3 groups-item">
-          <img src="https://api.mf.uz/media/interactive_services/help1_Cr6EqxB_1tczXMX.png" alt="">
-          <p class="title">Telegram kanal "oylik" boti</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
-              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
-        </div>
-        <div class="col-md-3 groups-item">
-          <img src="https://api.mf.uz/media/interactive_services/help6.png" alt="">
-          <p class="title">onlayn matbuot</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, porro!</p>
-          <a class="links" href="https://t.me/Oylikbot" target="_blank">Kirish <span><i
-              class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
         </div>
       </div>
     </div>
