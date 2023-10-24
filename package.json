@@ -1,0 +1,30 @@
+{
+  "name": "barkamol",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@techassi/vue-youtube-iframe": "^1.0.6",
+    "axios": "^1.2.3",
+    "v-video-embed": "^1.0.8",
+    "vue": "^3.2.45",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^4.1.6",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-yandex-maps": "^0.11.13",
+    "vue-youtube-embed": "^2.2.2",
+    "vue2-google-maps": "^0.10.7",
+    "vue3-carousel": "^0.3.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
