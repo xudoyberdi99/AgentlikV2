@@ -56,12 +56,12 @@
         </a>
       </div>
       <div class="col-md-4 links">
-        <a href="https://play.google.com/store/apps/details?id=uz.minfin.open_budget&hl=ru&gl=US&pli=1" target="_blank">
+        <a href="https://www.imv.uz/" target="_blank">
           <div class="box">
-            <img src="https://api.mf.uz/media/usefullink/logos/ob.png"  class="images1" alt="">
+            <img src="../img/gerb1.jpg"  class="images1" alt="">
             <p class="text">
 
-              O‘zbekiston Respublikasi "Ochiq budjet" portali
+              Iqtisodiyot va moliya vazirligi
             </p>
           </div>
         </a>

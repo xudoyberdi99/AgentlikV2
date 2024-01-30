@@ -2,25 +2,23 @@
   <div class="container my-5 pt-5">
     <div class="row">
       <div class="col-md-4 groups-item">
-        <h4 class="fw-bold">Agentlik  yangiliklari</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit. Alias aliquid animi aspernatur beatae culpa dolore ea eligendi eum in, itaque iure magni, maxime nam necessitatibus omnis quod repellendus sint, soluta!</p>
+        <h4 class="fw-bold"> So'ngi xabarlar</h4>
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit. Alias aliquid animi aspernatur beatae culpa dolore ea eligendi eum in, itaque iure magni, maxime nam necessitatibus omnis quod repellendus sint, soluta!</p>-->
           <button @click="$router.push('lastnews')"
                   style="background-color: #FDC800; color: black; border-radius: 5px; border:none;margin-top: 10px;"
-                  class="btn btn-success p-3 fw-bold">Barcha Yangiliklar
+                  class="btn btn-success p-3 fw-bold">Barchasi
           </button>
       </div>
       <div class="col-md-8">
         <div class="row mb-5 ">
           <div class="col-md-6">
             <div class="card-item px-0">
-              <img src="@/img/image1.jpg" class="image">
+              <img src="https://www.spot.uz/media/img/2017/12/6x9qTS15126197346055_l.jpg" class="image">
               <div style="padding: 14px;">
-                <button @click="$router.push('news-detail/1')" class="buttons"><p class="fw-bold">siz doim
-                  etiborimizdasiz
-                  aziz bolajonlar</p></button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugiat illo, magnam obcaecati odit veritatis.</p>
+                <button class="buttons"><p class="fw-bold">Qimmatbaho metallar va qimmatbaho toshlar to‘g‘risida"gi Qonun</p></button>
+                <p>“Qimmatbaho metallar va qimmatbaho toshlar to‘g‘risida"gi Qonun (O‘RQ-710-son, 23.08.2021 y.) Prezident tomonidan imzolandi.</p>
                 <div class="bottom clearfix">
-                  <button @click="$router.push('news-detail/1')" class="buttons">To'liq o'qish <span class="time"><i
+                  <button  class="buttons">To'liq o'qish <span class="time"><i
                       class="fa fa-arrow-right fa-sm"
                       aria-hidden="true"></i></span></button>
                   <div class="px-2">
@@ -37,14 +35,12 @@
           </div>
           <div class="col-md-6">
             <div class="card-item">
-              <img src="@/img/image3.jpg" class="image">
+              <img src="@/img/imagess.jpg" class="image">
               <div style="padding: 14px;">
-                <button @click="$router.push('news-detail/1')" class="buttons "><p class="fw-bold text-center">siz doim
-                  etiborimizdasiz
-                  aziz bolajonlar</p></button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, earum impedit iure non possimus voluptatibus!</p>
+                <button  class="buttons "><p class="fw-bold text-center">Asillik darajasini belgilash va tamg'alash uchun to'lov</p></button>
+                <p>Zargarlik va boshqa buyumlarning  tarkibida elementlar<sup class="fw-bold">*</sup> soni 5 tadan oshsa asllik darajasini tekshirish va tamg'alash narxi ikki barobar oshadi  </p>
                 <div class="bottom clearfix">
-                  <button @click="$router.push('#')" class="buttons">To'liq o'qish <span class="time"><i
+                  <button class="buttons">To'liq o'qish <span class="time"><i
                       class="fa fa-arrow-right fa-sm"
                       aria-hidden="true"></i></span></button>
                   <div class="px-2">

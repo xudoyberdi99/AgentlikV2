@@ -1,10 +1,10 @@
 <template>
     <div class="header-menu container">
           <div class="address-style">
-              <i class="fa-solid fa-map"></i><span> Amir temur ko'chasi 103-uy</span>
+              <i class="fa-solid fa-map"></i><span class="font-weight-bold iconssty"> Yunusobod tumani Zarafshon 4-uy </span>
               <i class="fa fa-envelope iconssty" aria-hidden="true"></i>
-              <span> test@gmail.com</span>
-              <i class="fa-solid fa-phone iconssty" aria-hidden="true"><span class="font-weight-light"> (998)939044444</span> </i>
+              <span class="font-weight-bold iconssty"> dadbp@exat.uz, infogppuz@gmail.com </span>
+              <i class="fa-solid fa-phone iconssty" aria-hidden="true"></i><span class="font-weight-bold iconssty"> (998)71-2330233; 71-2330480 </span>
         </div>
         <div class="d-flex justify-content-between">
           <div class="language">

@@ -1,6 +1,6 @@
 <template>
-    <AboutUs />
-<InteractivService />
+  <AboutUs />
+  <InteractivService />
   <LastNews />
   <UsefullLinks />
   <Partners />

@@ -3,7 +3,7 @@
     <div class="container py-5">
       <div class="row d-flex align-items-center">
         <div class="col-md-5">
-          <h1 class="fw-bold">Bizning Agentlikka  xush kelibsiz</h1>
+          <h1 class="fw-bold">Bizning haqimizda</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa id
             neque officiis perspiciatis, quasi suscipit tempora tenetur. Autem
@@ -29,7 +29,7 @@
         </div>
         <div class="col-md-7">
           <img
-              src="../img/img3.jpg"
+              src="../img/imageAg.jpg"
               alt="kun rasmi"
               class="images"
           />

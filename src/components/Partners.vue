@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-3">
         <h2 class="fw-bold">Hamkorlarimiz</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Doloremque ducimus optio quidem rem
-        </p>
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
+<!--          Doloremque ducimus optio quidem rem-->
+<!--        </p>-->
       </div>
       <div class="col-9">
         <div id="carouselExam1" data-ride="carousel"  class="carousel slide" data-pause="false" >
@@ -14,68 +14,68 @@
               <div class="row d-flex" style="justify-content: space-around; ">
                 <div class="col-4 ">
                   <div class="box">
-                    <img class="logo-lg" src="@/img/logo.svg"
+                    <img class="logo-lg" src="https://www.imv.uz/_nuxt/img/logo-uz.62ef643.png"
                          alt="UniversalBank">
                   </div>
                 </div>
                 <div class="col-4 ">
                   <div class="box">
-                    <img class="logo-lg" src="@/img/logo.svg"
+                    <img class="logo-lg " src="https://www.imv.uz/_nuxt/img/logo-uz.62ef643.png"
                          alt="UniversalBank">
                   </div>
                 </div>
                 <div class="col-4 ">
                 <div class="box">
-                  <img class="logo-lg" src="@/img/logo.svg"
+                  <img class="logo-lg" src="https://www.imv.uz/_nuxt/img/logo-uz.62ef643.png"
                        alt="UniversalBank">
                 </div>
               </div>
               </div>
             </div>
-            <div class="carousel-item " data-interval="3000">
-              <div class="row d-flex" style="justify-content: space-around; ">
-                <div class="col-4 ">
-                  <div class="box">
-                    <img class="logo-lg" src="@/img/logo.svg"
-                         alt="UniversalBank">
-                  </div>
-                </div>
-                <div class="col-4 ">
-                  <div class="box">
-                    <img class="logo-lg" src="@/img/logo.svg"
-                         alt="UniversalBank">
-                  </div>
-                </div>
-                <div class="col-4 ">
-                <div class="box">
-                  <img class="logo-lg" src="@/img/logo.svg"
-                       alt="UniversalBank">
-                </div>
-              </div>
-              </div>
-            </div>
-            <div class="carousel-item " data-interval="3000">
-              <div class="row d-flex" style="justify-content: space-around; ">
-                <div class="col-4 ">
-                  <div class="box">
-                    <img class="logo-lg" src="@/img/logo.svg"
-                         alt="UniversalBank">
-                  </div>
-                </div>
-                <div class="col-4 ">
-                  <div class="box">
-                    <img class="logo-lg" src="@/img/logo.svg"
-                         alt="UniversalBank">
-                  </div>
-                </div>
-                <div class="col-4 ">
-                  <div class="box">
-                    <img class="logo-lg" src="@/img/logo.svg"
-                         alt="UniversalBank">
-                  </div>
-                </div>
-              </div>
-            </div>
+<!--            <div class="carousel-item " data-interval="3000">-->
+<!--              <div class="row d-flex" style="justify-content: space-around; ">-->
+<!--                <div class="col-4 ">-->
+<!--                  <div class="box">-->
+<!--                    <img class="logo-lg" src="@/img/logo.svg"-->
+<!--                         alt="UniversalBank">-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="col-4 ">-->
+<!--                  <div class="box">-->
+<!--                    <img class="logo-lg" src="@/img/logo.svg"-->
+<!--                         alt="UniversalBank">-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="col-4 ">-->
+<!--                <div class="box">-->
+<!--                  <img class="logo-lg" src="@/img/logo.svg"-->
+<!--                       alt="UniversalBank">-->
+<!--                </div>-->
+<!--              </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="carousel-item " data-interval="3000">-->
+<!--              <div class="row d-flex" style="justify-content: space-around; ">-->
+<!--                <div class="col-4 ">-->
+<!--                  <div class="box">-->
+<!--                    <img class="logo-lg" src="@/img/logo.svg"-->
+<!--                         alt="UniversalBank">-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="col-4 ">-->
+<!--                  <div class="box">-->
+<!--                    <img class="logo-lg" src="@/img/logo.svg"-->
+<!--                         alt="UniversalBank">-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <div class="col-4 ">-->
+<!--                  <div class="box">-->
+<!--                    <img class="logo-lg" src="@/img/logo.svg"-->
+<!--                         alt="UniversalBank">-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
           </div>
 
           <a class="carousel-control-prev" href="#"  data-target="#carouselExam1" data-slide="prev">

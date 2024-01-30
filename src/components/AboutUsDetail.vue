@@ -5,7 +5,6 @@
     </p>
     <img class="w-100" src="https://tsue.uz/media/static_gallery/slider_image_R4KUHh5.apng" alt="adead"/>
     <div class="single-content py-5">
-
       <p class="text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus
         aliquam architecto aut blanditiis consequuntur distinctio earum, eius
