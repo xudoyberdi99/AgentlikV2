@@ -5,7 +5,7 @@
                 <div class="col-md-2">
                     <div class="logo">
                         <a href="/" >
-                            <img src="../img/01.png" @click="Home"  class="img-fluid" alt="">
+                            <img src="../img/bizlogo.png" @click="Home"  class="img-fluid logos" alt="Logo">
                         </a>
                     </div>
                 </div>
@@ -65,7 +65,10 @@ methods:{
 
 <style scoped>
 .logo{
-  width: 80px;
+  width: 220px;
+}
+.logos {
+  width: 100%;
 }
 .box-content p{
     margin-bottom: 0;
@@ -79,10 +82,9 @@ methods:{
     margin-left: 10px;
     margin-right: 30px;
 }
-
-.icon {
-  height: 50px;
-  width: 50px;
-   
+@media only screen and (max-width: 991px){
+  .form-inline {
+    display: none;
+  }
 }
 </style>

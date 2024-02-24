@@ -59,14 +59,16 @@
                             <li><i class="fa fa-map"></i> Manzil
                             <p> Yunusobod tumani. Zarafshon 4-uy</p>
                             </li>
-                            <li class="buss"><i class="fa fa-bus"></i> Jamoat Transportlari
-                                <p>44,89,91,115,60,93,85,22,68,2,17,19,24,26,38,51,67,72,97,140</p>
+                            <li class="buss"><i class="fa fa-bus"></i>Jamoat Transportlari
+                                <p>44,89,91,115,60,93,85,22,68,2,17
+                                  ,19,24,26,38,51,67,72,97,140</p>
                             </li>
                             <li>
                                 <div style="position:relative;overflow:hidden; border-radius: 10px;">
-                                    <a href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Toshkent</a>
-                                    <a href="https://yandex.uz/maps/geo/1543141251/?ll=69.27494241533951%2C41.315348283327246&rl=69.27494241533951%2C41.315348283327246&utm_medium=mapframe&utm_source=maps&z=15.4" style="color:#eee;font-size:12px;position:absolute;top:14px;">Oybek metro bekati — Yandex Xarita</a>
-                                    <iframe src="https://yandex.uz/map-widget/v1/?ll=69.27494241533951%2C41.315348283327246&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTQzMTQxMjUxEkRPyrt6YmVraXN0b24sIFRvc2hrZW50LCBPyrt6YmVraXN0b24geW%2FKu25hbGlzaGksIE95YmVrIG1ldHJvIGJla2F0aSIKDT6MikIVTjElQg%3D%3D&rl=69.27494241533951%2C41.315348283327246&z=15.4" width="600" height="223" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                                    <div style="width: 100%">
+                                      <iframe width="500" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=300&amp;hl=en&amp;q=tashkent%20gosudarstvennaya%20Probirnaya+(inspiksiya)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a>
+                                      </iframe>
+                                  </div>
                                 </div>
                             </li>
                         </ul>
@@ -139,7 +141,7 @@ export default {
 .btn-floating-top {
     background-color: transparent;
     border-radius: 50%;
-    margin-left: 1260px;
+    //margin-left: 1260px;
     margin-bottom: 0;
 }
 </style>

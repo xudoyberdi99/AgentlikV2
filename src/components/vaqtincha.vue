@@ -1,34 +1,31 @@
 <template>
   <div class="container-fluid box">
-    <h5 class="mb-0 fw-bold text-center text">Sayt test rejimida ishlamoqda</h5>
-    <hr class="mt-0">
+    <Carousel :autoplay="2000" :wrap-around="true" :touchDrag="false">
+      <Slide v-for="slide in 10" :key="slide">
+        <div class="carousel__item"><p class="text">Sayt test rejimida ishlamoqda</p></div>
+      </Slide>
+    </Carousel>
   </div>
 </template>
 <script>
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 export default {
-
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation,
+  },
 }
 </script>
 <style scoped>
 .box {
   background-color: #c59e3a;
-
 }
 .text {
-  animation-duration: 20s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes slidein {
-  from {
-    margin-left: 80%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: -80%;
-    width: 100%;
-  }
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 20px;
 }
 </style>

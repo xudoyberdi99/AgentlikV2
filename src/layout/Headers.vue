@@ -1,11 +1,14 @@
 <template>
     <div class="header-menu container">
           <div class="address-style">
+            <div class="address_name">
               <i class="fa-solid fa-map"></i><span class="font-weight-bold iconssty"> Yunusobod tumani Zarafshon 4-uy </span>
-              <i class="fa fa-envelope iconssty" aria-hidden="true"></i>
-              <span class="font-weight-bold iconssty"> dadbp@exat.uz, infogppuz@gmail.com </span>
+            </div>
+              <div class="email_name">
+                <i class="fa fa-envelope iconssty" aria-hidden="true"></i><span class="font-weight-bold iconssty"> dadbp@exat.uz, infogppuz@gmail.com </span>
+              </div>
               <i class="fa-solid fa-phone iconssty" aria-hidden="true"></i><span class="font-weight-bold iconssty"> (998)71-2330233; 71-2330480 </span>
-        </div>
+          </div>
         <div class="d-flex justify-content-between">
           <div class="language">
             <img class="w-100"  src="../img/translation.png" alt="dwd">
@@ -51,6 +54,9 @@ name:'Headers',
   height: 35px;
   margin-right:15px;
 }
+.address-style{
+  display: flex;
+}
 .header-menu{
     display: flex;
     justify-content: space-between;
@@ -61,9 +67,14 @@ name:'Headers',
     margin-right: 5px;
     margin-left: 15px;
 }
-.font-weight-light {
-  font-size: 14px;
+@media only screen and (max-width: 1199px){
+.address_name {
+  display: none;
 }
-
-
+}
+@media only screen and (max-width: 991px){
+    .email_name {
+      display: none;
+    }
+}
 </style>

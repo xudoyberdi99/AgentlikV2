@@ -8,7 +8,7 @@
         <div style="width: 180px;">
           <button
                   style="background-color: #FDC800; color: black; border-radius: 5px; border:none;margin-top: 10px; padding: 10px; margin-top: 100px;"
-                  class="btn btn-success">Barcha Xizmatlar
+                  class="btn btn-success buttons">Barcha Xizmatlar
           </button>
         </div>
       </div>
@@ -94,5 +94,11 @@ export default {
 .btn:hover {
   color: #FDC800;
   transform: scale(1.1);
+}
+@media only screen and (max-width: 767px){
+  .buttons{
+    margin-top: 20px!important;
+  }
+
 }
 </style>

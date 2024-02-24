@@ -4,9 +4,9 @@
       <div class="col-md-4 groups-item">
         <h4 class="fw-bold"> So'ngi xabarlar</h4>
 <!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit. Alias aliquid animi aspernatur beatae culpa dolore ea eligendi eum in, itaque iure magni, maxime nam necessitatibus omnis quod repellendus sint, soluta!</p>-->
-          <button @click="$router.push('lastnews')"
+          <button
                   style="background-color: #FDC800; color: black; border-radius: 5px; border:none;margin-top: 10px;"
-                  class="btn btn-success p-3 fw-bold">Barchasi
+                  class=" buttons btn btn-success p-3 fw-bold">Barchasi
           </button>
       </div>
       <div class="col-md-8">
@@ -137,5 +137,11 @@ export default {
 }
 .groups-item{
   padding: 30px;
+}
+@media only screen and (max-width: 767px){
+  .buttons{
+    margin-top: 20px!important;
+  }
+
 }
 </style>

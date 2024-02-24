@@ -2,35 +2,13 @@
   <div class="container-fluid py-5" style="background-color: #f6f9f8;">
   <div class="container mb-5">
     <div class="row  mb-5 pb-5">
-      <div class="d-flex justify-content-between">
-        <div class="col-md-6">
+      <div class="title">
           <h2>Foydali Havolalar</h2>
-        </div>
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-8"></div>
-            <div class="col-4">
-              <button
-                  @click="$router.push('usefullinks')"
-                  style="
-              background-color: #fdc800;
-              color: black;
-              width: 150px;
-              border-radius: 5px;
-              border: none;
-              padding: 12px 20px;
-              font-weight: bold;
-              font-size: 20px;
-            "
-                  class="btn btn-success fw-bold"
-              >
+              <button @click="$router.push('usefullinks')" style="background-color: #fdc800; color: black; border-radius: 5px;border: none;padding: 12px 20px;font-weight: bold;font-size: 20px;"
+                  class="btn btn-success fw-bold">
                 Barchasi
               </button>
-            </div>
-          </div>
 
-
-        </div>
       </div>
 
     </div>
@@ -81,6 +59,14 @@
 .btn:hover {
   transform: scale(1.1);
   transition: all .4s linear;
+}
+.links {
+  margin-bottom: 80px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .box {
     position: relative;
